@@ -1,7 +1,7 @@
 # 🛡️ Verificador de Força de Senhas
 
-![Licença: MIT](https://img.shields.shields.shields.shields.io/badge/License-MIT-green.svg)
-![Python: 3.8+](https://img.shields.shields.shields.shields.io/badge/Python-3.8%2B-blue.svg)
+![Licença](https://img.shields.io/badge/License-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.12-blue)
 
 Uma aplicação desktop desenvolvida em Python que avalia a força de senhas em tempo real, fornecendo feedback visual e dicas de segurança baseadas em requisitos de complexidade. Ideal para estudos de **Cibersegurança** e desenvolvimento de software seguro [cite: 2026-01-16].
 
