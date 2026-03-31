@@ -3,7 +3,7 @@
 ![Licença](https://img.shields.io/badge/License-MIT-green)
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 
-Uma aplicação desktop desenvolvida em Python que avalia a força de senhas em tempo real, fornecendo feedback visual e dicas de segurança baseadas em requisitos de complexidade. Ideal para estudos de **Cibersegurança** e desenvolvimento de software seguro [cite: 2026-01-16].
+Uma aplicação desktop desenvolvida em Python que avalia a força de senhas em tempo real, fornecendo feedback visual e dicas de segurança baseadas em requisitos de complexidade. Ideal para estudos de **Cibersegurança** e desenvolvimento de software seguro.
 
 ## 💻 Demonstração
 
@@ -12,15 +12,15 @@ Aqui está o programa rodando no Linux, validando uma senha forte:
 ![Screenshot do Verificador](Captura%20de%20tela%20de%202026-03-31%2009-36-44.png)
 ## ✨ Funcionalidades
 
-* **Validação em Tempo Real:** A análise é feita enquanto você digita [cite: 2026-03-31].
-* **Feedback Visual:** Cores e textos indicam se a senha é "Curta", "Fraca", "Média" ou "Forte" [cite: 2026-03-31].
-* **Lista de Melhorias:** Mostra exatamente o que falta para a senha ficar blindada [cite: 2026-03-31].
-* **Ocultar/Mostrar Senha:** Botão funcional para privacidade [cite: 2026-03-31].
-* **Bloqueio de Espaços:** Impede que o usuário digite espaços acidentais [cite: 2026-03-31].
+* **Validação em Tempo Real:** A análise é feita enquanto você digita.
+* **Feedback Visual:** Cores e textos indicam se a senha é "Curta", "Fraca", "Média" ou "Forte."
+* **Lista de Melhorias:** Mostra exatamente o que falta para a senha ficar blindada.
+* **Ocultar/Mostrar Senha:** Botão funcional para privacidade.
+* **Bloqueio de Espaços:** Impede que o usuário digite espaços acidentais.
 
 ## 🧠 Critérios de Segurança (Regex)
 
-O motor de análise verifica os seguintes requisitos [cite: 2026-01-16]:
+O motor de análise verifica os seguintes requisitos:
 * Mínimo de 8 caracteres.
 * Pelo menos uma letra maiúscula.
 * Pelo menos uma letra minúscula.
@@ -30,8 +30,8 @@ O motor de análise verifica os seguintes requisitos [cite: 2026-01-16]:
 ## 🛠️ Instalação e Execução
 
 ### Pré-requisitos
-* Python 3.x instalado [cite: 2026-03-31].
-* Biblioteca `tkinter` (normalmente incluída no Python no Linux, mas se não estiver, instale com `sudo apt-get install python3-tk`) [cite: 2026-03-31].
+* Python 3.x instalado.
+* Biblioteca `tkinter` (normalmente incluída no Python no Linux, mas se não estiver, instale com `sudo apt-get install python3-tk`).
 
 ### Passos
 ```bash
