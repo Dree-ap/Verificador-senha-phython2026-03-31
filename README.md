@@ -1,29 +1,46 @@
-# 🛡️ Password Strength Checker
+# 🛡️ Verificador de Força de Senhas
 
-Uma aplicação desktop desenvolvida em Python para avaliar a segurança de senhas em tempo real, utilizando Expressões Regulares (Regex) e boas práticas de cibersegurança.
+![Licença: MIT](https://img.shields.shields.shields.shields.io/badge/License-MIT-green.svg)
+![Python: 3.8+](https://img.shields.shields.shields.shields.io/badge/Python-3.8%2B-blue.svg)
 
-## 🚀 Funcionalidades
-* **Validação em Tempo Real:** Análise instantânea enquanto o usuário digita.
-* **Critérios Avançados:** Verificação de maiúsculas, minúsculas, números, caracteres especiais e tamanho mínimo.
-* **Feedback Visual:** Interface interativa que aponta exatamente quais critérios de segurança estão faltando.
-* **Toggle de Visibilidade:** Opção de ocultar/mostrar a senha digitada.
+Uma aplicação desktop desenvolvida em Python que avalia a força de senhas em tempo real, fornecendo feedback visual e dicas de segurança baseadas em requisitos de complexidade. Ideal para estudos de **Cibersegurança** e desenvolvimento de software seguro [cite: 2026-01-16].
 
 ## 💻 Demonstração
-*(Adicione aqui um print da sua tela rodando o programa)*
-`![Screenshot](![Captura de tela de 2026-03-31 09-36-12.png](../../Imagens/Capturas%20de%20tela/Captura%20de%20tela%20de%202026-03-31%2009-36-12.png)
-![Captura de tela de 2026-03-31 09-36-18.png](../../Imagens/Capturas%20de%20tela/Captura%20de%20tela%20de%202026-03-31%2009-36-18.png)
-![Captura de tela de 2026-03-31 09-36-38.png](../../Imagens/Capturas%20de%20tela/Captura%20de%20tela%20de%202026-03-31%2009-36-38.png)
-![Captura de tela de 2026-03-31 09-36-44.png](../../Imagens/Capturas%20de%20tela/Captura%20de%20tela%20de%202026-03-31%2009-36-44.png)
 
-## 🛠️ Tecnologias Utilizadas
-* **Python 3**
-* **Tkinter** (Interface Gráfica)
-* **Regex / módulo `re`** (Validação de padrões)
+Aqui está o programa rodando no Linux, validando uma senha forte [cite: 2025-07-24, 2026-03-31]:
 
-## ⚙️ Como executar localmente
-1. Clone este repositório:
-   `git clone https://github.com/SEU_USUARIO/nome-do-repositorio.git`
-2. Acesse a pasta do projeto:
-   `cd nome-do-repositorio`
-3. Execute a aplicação:
-   `python main.py`
+![Screenshot do Verificador](Captura de tela de 2026-03-31 09-36-18.png)
+
+## ✨ Funcionalidades
+
+* **Validação em Tempo Real:** A análise é feita enquanto você digita [cite: 2026-03-31].
+* **Feedback Visual:** Cores e textos indicam se a senha é "Curta", "Fraca", "Média" ou "Forte" [cite: 2026-03-31].
+* **Lista de Melhorias:** Mostra exatamente o que falta para a senha ficar blindada [cite: 2026-03-31].
+* **Ocultar/Mostrar Senha:** Botão funcional para privacidade [cite: 2026-03-31].
+* **Bloqueio de Espaços:** Impede que o usuário digite espaços acidentais [cite: 2026-03-31].
+
+## 🧠 Critérios de Segurança (Regex)
+
+O motor de análise verifica os seguintes requisitos [cite: 2026-01-16]:
+* Mínimo de 8 caracteres.
+* Pelo menos uma letra maiúscula.
+* Pelo menos uma letra minúscula.
+* Pelo menos um número.
+* Pelo menos um caractere especial (!@#$...).
+
+## 🛠️ Instalação e Execução
+
+### Pré-requisitos
+* Python 3.x instalado [cite: 2026-03-31].
+* Biblioteca `tkinter` (normalmente incluída no Python no Linux, mas se não estiver, instale com `sudo apt-get install python3-tk`) [cite: 2026-03-31].
+
+### Passos
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/Dree-ap/Verificador-senha-phython2026-03-31.git](https://github.com/Dree-ap/Verificador-senha-phython2026-03-31.git)
+
+# 2. Navegue até a pasta
+cd Verificador-senha-phython2026-03-31
+
+# 3. Execute a aplicação
+python3 main.py
