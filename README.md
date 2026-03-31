@@ -9,7 +9,7 @@ Uma aplicação desktop desenvolvida em Python que avalia a força de senhas em 
 
 Aqui está o programa rodando no Linux, validando uma senha forte [cite: 2025-07-24, 2026-03-31]:
 
-![Screenshot do Verificador](Captura de tela de 2026-03-31 09-36-18.png)
+![Screenshot do Verificador](Captura de tela de 2026-03-31 09-36-44.png
 
 ## ✨ Funcionalidades
 
